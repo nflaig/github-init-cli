@@ -1,0 +1,34 @@
+{
+  "name": "github-init-cli",
+  "version": "0.1.0",
+  "description": "",
+  "preferGlobal": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "lib/github-init-cli.js",
+  "bin": {
+    "github-init-cli": "./bin/github-init-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nflaig/github-init-cli.git"
+  },
+  "keywords": [],
+  "author": "Nico Flaig <nflaig@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nflaig/github-init-cli/issues"
+  },
+  "homepage": "https://github.com/nflaig/github-init-cli#readme",
+  "dependencies": {
+    "@octokit/rest": "^16.36.0",
+    "simple-git": "^1.129.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
