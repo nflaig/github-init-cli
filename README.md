@@ -1,6 +1,6 @@
 # github-init-cli
 
-> Create remote and local git repository
+Create remote and local git repository
 
 ## Install
 
@@ -20,13 +20,13 @@ $ github-init-cli setCredentials <username> <password>
 Set custom working directory (default: `~/github`)
 
 ```sh
-github-init-cli setWorkingDir <path>
+$ github-init-cli setWorkingDir <path>
 ```
 
 Create remote and local git repository
 
 ```sh
-github-init-cli create <name>
+$ github-init-cli create <name>
 ```
 
 If installed, the project will be automatically opened in VS Code.
