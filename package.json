@@ -1,7 +1,7 @@
 {
   "name": "github-init-cli",
-  "version": "0.1.4",
-  "description": "",
+  "version": "0.1.5",
+  "description": "Create remote and local git repository",
   "preferGlobal": true,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
