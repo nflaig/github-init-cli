@@ -29,7 +29,7 @@ Create remote and local git repository
 $ github-init-cli create <name>
 ```
 
-If installed, the project will be automatically opened in VS Code.
+If installed, the project will be automatically opened in [VS Code](https://code.visualstudio.com/).
 
 ## Issues
 
