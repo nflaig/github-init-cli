@@ -1,6 +1,6 @@
 {
   "name": "github-init-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "preferGlobal": true,
   "publishConfig": {
@@ -17,7 +17,13 @@
     "type": "git",
     "url": "git+https://github.com/nflaig/github-init-cli.git"
   },
-  "keywords": [],
+  "keywords": [
+    "github-init-cli",
+    "git",
+    "github",
+    "cli",
+    "create"
+  ],
   "author": "Nico Flaig <nflaig@protonmail.com>",
   "license": "MIT",
   "bugs": {
