@@ -1,6 +1,6 @@
 {
   "name": "github-init-cli",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Create remote and local git repository",
   "preferGlobal": true,
   "publishConfig": {
