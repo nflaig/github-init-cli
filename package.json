@@ -1,6 +1,6 @@
 {
   "name": "github-init-cli",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Create remote and local git repository",
   "preferGlobal": true,
   "publishConfig": {
@@ -11,7 +11,9 @@
     "github-init-cli": "./bin/github-init-cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint .",
+    "eslint:fix": "npm run eslint -- --fix"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,10 @@
     "cli",
     "create"
   ],
+  "files": [
+    "bin",
+    "lib"
+  ],
   "author": "Nico Flaig <nflaig@protonmail.com>",
   "license": "MIT",
   "bugs": {
@@ -35,6 +41,12 @@
     "simple-git": "^1.129.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "husky": "^3.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run eslint"
+    }
   }
 }
