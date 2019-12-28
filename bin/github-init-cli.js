@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { setCredentials, setWorkingDir, create } = require('../lib/github-init-cli');
+const { setCredentials, setWorkingDir, create } = require("../lib/github-init-cli");
 
 const args = process.argv.splice(process.execArgv.length + 2);
 
