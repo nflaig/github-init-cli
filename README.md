@@ -10,19 +10,18 @@ Create remote and local git repository
 $ npm install -g github-init-cli
 ```
 
-
 ## Usage
 
-Set GitHub credentials
+Login with your GitHub credentials (will be persisted locally)
 
 ```sh
-$ github setCredentials <username> <password>
+$ github login <username> <password>
 ```
 
 Set custom working directory (default: `~/github`)
 
 ```sh
-$ github setWorkingDir <path>
+$ github setwd <path>
 ```
 
 Create remote and local git repository
