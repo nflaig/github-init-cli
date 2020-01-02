@@ -12,7 +12,7 @@ $ npm install -g github-init-cli
 
 ## Usage
 
-Login with your GitHub credentials (will be persisted locally)
+Log in with your GitHub credentials (will be persisted locally)
 
 ```sh
 $ github login <username> <password>
@@ -30,7 +30,7 @@ Create remote and local git repository
 $ github create <name>
 ```
 
-If installed, the project will be automatically opened in [VS Code](https://code.visualstudio.com/).
+If installed, the project will be opened with [VS Code](https://code.visualstudio.com/).
 
 ## Contributing
 
