@@ -33,10 +33,6 @@ $ github create <name>
 
 If installed, the project will be automatically opened in [VS Code](https://code.visualstudio.com/).
 
-## Issues
-
-Report issues [here](https://github.com/nflaig/github-init-cli/issues)
-
 ## Contributing
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/nflaig/github-init-cli/issues)
