@@ -1,6 +1,6 @@
 {
   "name": "github-init-cli",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Create remote and local git repository",
   "preferGlobal": true,
   "publishConfig": {
@@ -39,6 +39,7 @@
   "homepage": "https://github.com/nflaig/github-init-cli#readme",
   "dependencies": {
     "@octokit/rest": "^16.36.0",
+    "chalk": "^3.0.0",
     "node-alias": "^1.0.4",
     "simple-git": "^1.129.0"
   },
