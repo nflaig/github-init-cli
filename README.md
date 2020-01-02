@@ -14,19 +14,19 @@ $ npm install -g github-init-cli
 Set GitHub credentials
 
 ```sh
-$ github-init-cli setCredentials <username> <password>
+$ github setCredentials <username> <password>
 ```
 
 Set custom working directory (default: `~/github`)
 
 ```sh
-$ github-init-cli setWorkingDir <path>
+$ github setWorkingDir <path>
 ```
 
 Create remote and local git repository
 
 ```sh
-$ github-init-cli create <name>
+$ github create <name>
 ```
 
 If installed, the project will be automatically opened in [VS Code](https://code.visualstudio.com/).
