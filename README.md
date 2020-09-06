@@ -12,7 +12,7 @@ $ npm install -g github-init-cli
 
 ## Usage
 
-Log in with your GitHub username and [personal access token][personal-access-tokens] (will be persisted locally)
+Log in with your GitHub username and [personal access token][personal-access-tokens] (will be persisted locally). </br>
 Make sure that the access token has permissions (`repo`, `delete_repo`) to create (required) and delete (optional) repositories.
 
 ```sh
