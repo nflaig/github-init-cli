@@ -41,7 +41,7 @@
     "@octokit/rest": "^18.0.5",
     "chalk": "^3.0.0",
     "node-alias": "^1.0.4",
-    "simple-git": "^1.129.0"
+    "simple-git": "^3.3.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
