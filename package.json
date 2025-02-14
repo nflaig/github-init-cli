@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/nflaig/github-init-cli#readme",
   "dependencies": {
-    "@octokit/rest": "^18.0.5",
+    "@octokit/rest": "^21.1.0",
     "chalk": "^3.0.0",
     "node-alias": "^1.0.4",
     "simple-git": "^3.3.0"
